@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Versões de cada questão a serem resolvidas</title>
+  <script type="text/javascript">
+  function num_cham(id, lista)
+    {
+	  var num = -1;
+ 
+      for(i=0;i<=2;i++)
+      {
+    	if (lista[i][0] == id} {
+			num = lista[i][1];
+		}
+	  }
+	  return (num);
+    }
+    var id = prompt("Qual é seu número de matrícula na FGV?");
+	var lista_alunos = [[12, 1], [13, 2], [15, 3]]
+	document.write(num_cham (id));
+
+    
+    
+  
+  </script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-
-<button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
-
-<p id="demo"></p>
-
-
 </body>
 </html>
