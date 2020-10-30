@@ -18,7 +18,7 @@ var imgOriginal = new Image();
 
 imgOriginal.crossOrigin = '';
     
-imgOriginal.src = "https://raw.githubusercontent.com/alp193abp/IC/master/001.jpeg";
+imgOriginal.src = "https://midou1.jpeg";
 imgOriginal.onload = function(){
 w=2*imgOriginal.width;
 h=2*imgOriginal.height;
