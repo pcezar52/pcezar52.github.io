@@ -18,7 +18,7 @@ var imgOriginal = new Image();
 
 imgOriginal.crossOrigin = '';
     
-imgOriginal.src = "https://pcezar52.github.io/midou1.jpg";
+imgOriginal.src = "midou1.jpg";
 imgOriginal.onload = function(){
 w=2*imgOriginal.width;
 h=2*imgOriginal.height;
