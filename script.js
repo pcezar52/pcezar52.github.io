@@ -98,7 +98,7 @@ document.getElementById("bt_confirm").addEventListener("click", function () {
 		Y_m = pontos_fuga[0][1];
 		Y_n = pontos_fuga[1][1];
 		Y_p = pontos_fuga[2][1];
-		document.write(X_m);
+		alert(X_m.toString());
 		t = ((X_m-X_n)*(X_p-X_n)+(Y_m-Y_n)*(Y_p-Y_n))/((X_m-X_n)*(X_m-X_n)+(Y_m-Y_n)*(Y_m-Y_n));
 		P1 = [(X_m-X_n)*t+X_n,(Y_m-Y_n)*t+Y_n]; 
 		lista_Ps.push(P1);
